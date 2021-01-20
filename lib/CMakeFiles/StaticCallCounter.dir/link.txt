@@ -1,0 +1,1 @@
+/usr/bin/clang++ -fPIC   -shared -Wl,-soname,libStaticCallCounter.so -o libStaticCallCounter.so CMakeFiles/StaticCallCounter.dir/StaticCallCounter.cpp.o 

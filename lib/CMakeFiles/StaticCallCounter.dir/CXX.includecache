@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/StaticCallCounter.h
+llvm/ADT/MapVector.h
+../include/llvm/ADT/MapVector.h
+llvm/IR/CallSite.h
+../include/llvm/IR/CallSite.h
+llvm/IR/Module.h
+../include/llvm/IR/Module.h
+llvm/IR/PassManager.h
+../include/llvm/IR/PassManager.h
+llvm/Pass.h
+../include/llvm/Pass.h
+llvm/Support/raw_ostream.h
+../include/llvm/Support/raw_ostream.h
+
+/home/dbasu/llvm-tutor/lib/StaticCallCounter.cpp
+StaticCallCounter.h
+/home/dbasu/llvm-tutor/lib/StaticCallCounter.h
+llvm/Passes/PassBuilder.h
+/home/dbasu/llvm-tutor/lib/llvm/Passes/PassBuilder.h
+llvm/Passes/PassPlugin.h
+/home/dbasu/llvm-tutor/lib/llvm/Passes/PassPlugin.h
+

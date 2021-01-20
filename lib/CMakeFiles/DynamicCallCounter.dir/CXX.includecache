@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/DynamicCallCounter.h
+llvm/IR/PassManager.h
+../include/llvm/IR/PassManager.h
+llvm/Pass.h
+../include/llvm/Pass.h
+
+/home/dbasu/llvm-tutor/lib/DynamicCallCounter.cpp
+DynamicCallCounter.h
+/home/dbasu/llvm-tutor/lib/DynamicCallCounter.h
+llvm/IR/IRBuilder.h
+/home/dbasu/llvm-tutor/lib/llvm/IR/IRBuilder.h
+llvm/Passes/PassBuilder.h
+/home/dbasu/llvm-tutor/lib/llvm/Passes/PassBuilder.h
+llvm/Passes/PassPlugin.h
+/home/dbasu/llvm-tutor/lib/llvm/Passes/PassPlugin.h
+llvm/Transforms/Utils/ModuleUtils.h
+/home/dbasu/llvm-tutor/lib/llvm/Transforms/Utils/ModuleUtils.h
+

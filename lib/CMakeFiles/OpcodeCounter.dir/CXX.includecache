@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/OpcodeCounter.h
+llvm/ADT/StringMap.h
+../include/llvm/ADT/StringMap.h
+llvm/IR/Function.h
+../include/llvm/IR/Function.h
+llvm/IR/PassManager.h
+../include/llvm/IR/PassManager.h
+llvm/Pass.h
+../include/llvm/Pass.h
+llvm/Support/raw_ostream.h
+../include/llvm/Support/raw_ostream.h
+
+/home/dbasu/llvm-tutor/lib/OpcodeCounter.cpp
+OpcodeCounter.h
+/home/dbasu/llvm-tutor/lib/OpcodeCounter.h
+llvm/IR/LegacyPassManager.h
+/home/dbasu/llvm-tutor/lib/llvm/IR/LegacyPassManager.h
+llvm/Passes/PassBuilder.h
+/home/dbasu/llvm-tutor/lib/llvm/Passes/PassBuilder.h
+llvm/Passes/PassPlugin.h
+/home/dbasu/llvm-tutor/lib/llvm/Passes/PassPlugin.h
+llvm/Transforms/IPO/PassManagerBuilder.h
+/home/dbasu/llvm-tutor/lib/llvm/Transforms/IPO/PassManagerBuilder.h
+

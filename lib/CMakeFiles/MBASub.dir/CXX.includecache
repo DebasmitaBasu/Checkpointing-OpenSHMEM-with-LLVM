@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/MBASub.h
+llvm/IR/PassManager.h
+../include/llvm/IR/PassManager.h
+llvm/Pass.h
+../include/llvm/Pass.h
+
+../include/Ratio.h
+llvm/Support/CommandLine.h
+../include/llvm/Support/CommandLine.h
+
+/home/dbasu/llvm-tutor/lib/MBASub.cpp
+MBASub.h
+/home/dbasu/llvm-tutor/lib/MBASub.h
+llvm/ADT/Statistic.h
+/home/dbasu/llvm-tutor/lib/llvm/ADT/Statistic.h
+llvm/IR/IRBuilder.h
+/home/dbasu/llvm-tutor/lib/llvm/IR/IRBuilder.h
+llvm/Passes/PassBuilder.h
+/home/dbasu/llvm-tutor/lib/llvm/Passes/PassBuilder.h
+llvm/Passes/PassPlugin.h
+/home/dbasu/llvm-tutor/lib/llvm/Passes/PassPlugin.h
+llvm/Transforms/Utils/BasicBlockUtils.h
+/home/dbasu/llvm-tutor/lib/llvm/Transforms/Utils/BasicBlockUtils.h
+random
+-
+
+/home/dbasu/llvm-tutor/lib/Ratio.cpp
+Ratio.h
+/home/dbasu/llvm-tutor/lib/Ratio.h
+

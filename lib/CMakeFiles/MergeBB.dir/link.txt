@@ -1,0 +1,1 @@
+/usr/bin/clang++ -fPIC   -shared -Wl,-soname,libMergeBB.so -o libMergeBB.so CMakeFiles/MergeBB.dir/MergeBB.cpp.o 

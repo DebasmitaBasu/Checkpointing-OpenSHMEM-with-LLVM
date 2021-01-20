@@ -1,3 +1,4 @@
+cmake_minimum_required(VERSION 3.17)
 # THE LIST OF PLUGINS AND THE CORRESPONDING SOURCE FILES
 # ======================================================
 set(LLVM_TUTOR_PLUGINS
@@ -10,6 +11,7 @@ set(LLVM_TUTOR_PLUGINS
     DuplicateBB
     OpcodeCounter
     MergeBB
+    MapInstructions
     )
 
 set(StaticCallCounter_SOURCES
@@ -32,6 +34,8 @@ set(OpcodeCounter_SOURCES
   OpcodeCounter.cpp)
 set(MergeBB_SOURCES
   MergeBB.cpp)
+set(MapInstructions_SOURCES
+  MapInstructions.cpp)
 
 # CONFIGURE THE PLUGIN LIBRARIES
 # ==============================

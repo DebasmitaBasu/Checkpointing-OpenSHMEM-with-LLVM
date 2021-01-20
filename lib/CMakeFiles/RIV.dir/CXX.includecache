@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/RIV.h
+llvm/ADT/MapVector.h
+../include/llvm/ADT/MapVector.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/ADT/SmallPtrSet.h
+llvm/IR/Dominators.h
+../include/llvm/IR/Dominators.h
+llvm/IR/ValueMap.h
+../include/llvm/IR/ValueMap.h
+llvm/Pass.h
+../include/llvm/Pass.h
+
+/home/dbasu/llvm-tutor/lib/RIV.cpp
+RIV.h
+/home/dbasu/llvm-tutor/lib/RIV.h
+llvm/Passes/PassBuilder.h
+/home/dbasu/llvm-tutor/lib/llvm/Passes/PassBuilder.h
+llvm/Passes/PassPlugin.h
+/home/dbasu/llvm-tutor/lib/llvm/Passes/PassPlugin.h
+llvm/Support/Format.h
+/home/dbasu/llvm-tutor/lib/llvm/Support/Format.h
+deque
+-
+

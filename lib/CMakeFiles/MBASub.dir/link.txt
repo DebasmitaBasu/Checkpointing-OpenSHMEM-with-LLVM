@@ -1,0 +1,1 @@
+/usr/bin/clang++ -fPIC   -shared -Wl,-soname,libMBASub.so -o libMBASub.so CMakeFiles/MBASub.dir/MBASub.cpp.o CMakeFiles/MBASub.dir/Ratio.cpp.o 

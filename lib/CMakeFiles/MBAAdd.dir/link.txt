@@ -1,0 +1,1 @@
+/usr/bin/clang++ -fPIC   -shared -Wl,-soname,libMBAAdd.so -o libMBAAdd.so CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o CMakeFiles/MBAAdd.dir/Ratio.cpp.o 

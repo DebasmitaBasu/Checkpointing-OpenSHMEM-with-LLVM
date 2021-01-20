@@ -1,0 +1,1 @@
+/usr/bin/clang++ -fPIC   -shared -Wl,-soname,libInjectFuncCall.so -o libInjectFuncCall.so CMakeFiles/InjectFuncCall.dir/InjectFuncCall.cpp.o 
